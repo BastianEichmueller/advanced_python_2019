@@ -21,7 +21,7 @@ def test_find_peaks():
     
 def test_find_two_peaks():
     peaks = playground.colortest.find_peaks([(1,1,1),(0,0,0),(1,1,1),(0,0,0),(1,1,1)])
-    assert peaks == [1,3]
+    assert peaks == [1]
 
 def test_find_peaks_max_edge():
     peaks = playground.colortest.find_peaks([(1,1,1),(0,0,0)])
